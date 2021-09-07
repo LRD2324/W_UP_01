@@ -71,3 +71,5 @@ The t-test performed on our data yielded a p-value of 0.000009421, which is extr
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
 
+The first step to the process was determining the type of data we had and what helper file was needed. IN this case our data was numerical by categorical so we utilized the numerical~cat file. I then utilized the boxplot function to create a graphical description of the data, as well as a favstats function for a numerical description of the data in a table, and then finally a t-test function for determining the probability that the null hypothesis should or should not be accepted, The data all indicated a bias towards skill players and the yielded p-value was very small, illustrating that we should reject the null hypothesis.
+  
