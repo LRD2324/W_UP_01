@@ -55,8 +55,8 @@ The graphical results above illustrate a palpable difference between the number 
 favstats(pushups~position,data=mydata)
 ```
 
-
-
+The data in the table above states that the mean number of push ups from line players is 17.12500, while the average number of push up performed by skill players is 49.72727. This is an enormous inequity, with the skill players being able to perform almost 3 times as many push ups on average. Further, the standard deviation of skill players from the mean is 23.036579, indicating a large portion of players can perform up to 23 more push ups than the average. Meanwhile, the standard deviation for line players is 9.745878 which means most of the linemen (68%) perform 7.379122 to 26.870878 push ups. The smaller standard deviation restricts the possible spread of data, meaning that a larger percentage of the players perform in this tighter range of less push ups. The large standard deviation for skill players indicates that a large portion of the players perform much more than the average. In conjunction with the much greater mean, this suggests that skill players can perform all around more push ups than line players.
+  
 ## Inferential Results
 
 <!--State hypothesis clearly. Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc. Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
@@ -65,8 +65,8 @@ favstats(pushups~position,data=mydata)
 t.test(pushups~position,data=mydata)
 ```
 
-
-
+The t-test performed on our data yielded a p-value of 0.000009421, which is extremely small. This value measures the probability that the data yielded could have come about while the null hypothesis is still maintained as true. Such a small value indicates that it is much more probable that the null hypothesis is false, and that the alternative hypothesis is more probable to be true.
+  
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here. If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
