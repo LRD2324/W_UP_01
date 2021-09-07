@@ -45,8 +45,8 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 boxplot(pushups~position,data=mydata)
 ```
 
-
-
+The graphical results above illustrate a palpable difference between the number of push ups performed by linemen and skill players. The skill players' boxplot demonstrates a minimum of 18 push ups which is greater than the median number of push ups for line players (14.5). Not only this, but the median number of push ups for skill players is greater than the maximum number of push ups done by a line player. This together strongly suggests that skill players can perform more push ups than line players.
+  
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
